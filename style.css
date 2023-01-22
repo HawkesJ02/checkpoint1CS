@@ -1,0 +1,93 @@
+/* SECTION Global */
+*{
+  font-family: 'Kanit', sans-serif;
+}
+
+/* SECTION Elements */
+
+header{
+  box-shadow:5px 5px 5px rgb(35, 35, 35);
+}
+
+/* SECTION Classes */
+
+
+/* .colorholder{
+color: #ffbe58; (secondary orange)
+color: #ECFF58; (main yellow)
+color:  #FF6B58; (red buttons, ect.)
+color: #333a41; (text)
+} */
+
+.section1{
+  background: url(https://media.discordapp.net/attachments/740165104686858252/1066491136891437056/IndustryOfWarPromo_NoLogo.jpg?width=1156&height=650);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section1text{
+  color: white;
+}
+
+.section2{
+  background-color: #ECFF58;
+}
+
+.section4{
+  background-color: lightgrey;
+}
+
+.footerfont{
+  font-size: small;
+}
+
+.formcard{
+  background-color: whitesmoke;
+  padding: 1em;
+}
+
+.imgtruck{
+  height: 85vh;
+}
+
+
+.maincolor{
+  background-color: #ECFF58 ;
+}
+
+.fs-yellow{
+  color: #ECFF58;
+}
+
+.fs-superlarge{
+  font-size: 7vh;
+}
+
+.boxshadow {
+  box-shadow:5px 5px 5px rgb(35, 35, 35);
+}
+
+/* SECTION Elements */
+
+header{
+  background-color: #ECFF58;
+}
+
+@media screen and (max-width: 600px) {
+  .delete-small{
+    display: none;
+  }
+
+  .section4{
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px)
+  {
+.spiller {
+  position: absolute;
+  right: 0;
+}
+}
